@@ -1,5 +1,7 @@
 <?php require __DIR__ . '/vendor/autoload.php';
 
-$blog = new Blog(new DB);
+$c = new ArrayObject;
+$c['db'] = new DB;
+$c['blog'] = new Blog($c['db']);
 
-$blog->posts();
+$c['blog']->posts();
