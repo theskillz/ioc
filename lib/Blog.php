@@ -2,7 +2,7 @@
 
 class Blog
 {
-    public function setDB(DB $db)
+    public function __construct(DB $db)
     {
         $this->db = $db;
     }
