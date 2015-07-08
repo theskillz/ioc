@@ -1,0 +1,13 @@
+{
+    "name": "skillz/ioc",
+    "authors": [
+        {
+            "name": "Yura Marmyshev",
+            "email": "marmyshev@nn.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"": "lib/"}
+    },
+    "require": {}
+}
